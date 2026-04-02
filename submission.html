@@ -17,8 +17,19 @@
 		}
 
 		/* YOUR CSS CODE WILL GO HERE */
-		rect {
-			fill: blue;
+		.line2color {
+			fill: rgb(0, 189, 0);
+		}
+		.line3color {
+			fill: rgb(255, 143, 39);
+		}
+		.line1color {
+			fill: rgb(43, 43, 131)
+			;
+		}
+		.smalltext {
+			font-size: 12px;
+			text-anchor: middle;
 		}
 
 
@@ -32,18 +43,18 @@
 
 	<svg id="visualization-activity">
 		<!-- YOUR SVG CODE WILL GO HERE -->
-		<rect x="0" y="28" width="40" height="172"></rect>
-		<text x="0" y="220">홍대입구</text>
-		<rect x="75" y="38" width="40" height="162"></rect>
-		<text x="75" y="220">잠실</text>
-		<rect x="150" y="48" width="40" height="152"></rect>
-		<text x="150" y="220">고속터미널</text>
-		<rect x="225" y="58" width="40" height="142"></rect>
-		<text x="225" y="220">서울역</text>
-		<rect x="300" y="60" width="40" height="140"></rect>
-		<text x="300" y="220">신림</text>
-		<rect x="375" y="62" width="40" height="138"></rect>
-		<text x="375" y="220">신도림</text>
+		<rect x="20" y="28" width="40" height="172" class="line2color"/>
+		<text x="40" y="220" class="smalltext">홍대입구</text>
+		<rect x="95" y="38" width="40" height="162" class="line2color"/>
+		<text x="115" y="220" class="smalltext">잠실</text>
+		<rect x="170" y="48" width="40" height="152" class="line3color"/>
+		<text x="190" y="220" class="smalltext">고속터미널</text>
+		<rect x="245" y="58" width="40" height="142" class="line1color"/>
+		<text x="265" y="220" class="smalltext">서울역</text>
+		<rect x="320" y="60" width="40" height="140" class="line2color"/>
+		<text x="340" y="220" class="smalltext">신림</text>
+		<rect x="395" y="62" width="40" height="138" class="line2color"/>
+		<text x="415" y="220" class="smalltext">신도림</text>
 
 	</svg>
 
